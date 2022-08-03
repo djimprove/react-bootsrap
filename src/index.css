@@ -6,6 +6,31 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body{
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+#root{
+  height: 100%;
+  width: 100%;
+}
+.sidebar{
+  position: absolute;
+  display: none;
+}
+.sidebar.open{
+  display: block;
+  max-width: 200px;
+  min-width: 200px;
+}
+@media screen and (min-width: 768px) {
+  .sidebar{
+    position: relative;
+
+    display: block;
+  }
+}
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
