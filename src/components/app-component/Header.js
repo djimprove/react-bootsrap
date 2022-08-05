@@ -3,7 +3,7 @@ import React from "react";
 const Header = ({ headerName = "Dashboard" }) => {
   return (
     <div className='d-flex flex-row justify-content-between'>
-      <div className=''>{headerName}</div>
+      <h3 className=''>{headerName}</h3>
       <div className='d-flex flex-row align-items-center'>
         <i style={{ fontSize: 20 }} class='bi bi-bell me-2'></i>
         <i style={{ fontSize: 20 }} class='bi bi-facebook me-2'></i>

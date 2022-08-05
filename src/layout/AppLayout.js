@@ -14,7 +14,7 @@ function AppLayout({ children }) {
           <div className='row '>
             <Header />
           </div>
-          <div className='row'>{children}</div>
+          <div className='row mt-3'>{children}</div>
 
           <div className='row'>
             <Footer />
